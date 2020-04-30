@@ -20,12 +20,12 @@ BLOG_AUTHOR = "Marc Sastre Rienitz"  # (translatable)
 BLOG_TITLE = "Muninn"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "file:///home/marc/repos/muninn/output/"
+SITE_URL = "https://muninn.sastre.cat/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "marc@sastre.cat"
-BLOG_DESCRIPTION = "Here I post stuff."  # (translatable)
+BLOG_DESCRIPTION = "Marc Sastre Rienitz"  # (translatable)
 
 # What is the default language?
 DEFAULT_LANG = "ca"
@@ -35,9 +35,9 @@ DEFAULT_LANG = "ca"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "de": "./de",
-    "en": "./en",
-    "es": "./es",
+    # "de": "./de",
+    # "en": "./en",
+    # "es": "./es",
 }
 
 # What will translated input files be named like?
@@ -82,23 +82,23 @@ NAVIGATION_LINKS = {
         ("/rss.xml", "Canal RSS"),
     ),
 
-    "en": (
-        ("/en/archive.html", "Archive"),
-        ("/en/categories/", "Tags"),
-        ("/en/rss.xml", "RSS feed"),
-    ),
+    # "en": (
+    #     ("/en/archive.html", "Archive"),
+    #     ("/en/categories/", "Tags"),
+    #     ("/en/rss.xml", "RSS feed"),
+    # ),
 
-    "de": (
-        ("/de/archive.html", "Archiv"),
-        ("/de/categories/", "Tags"),
-        ("/de/rss.xml", "RSS-Feed"),
-    ),
+    # "de": (
+    #     ("/de/archive.html", "Archiv"),
+    #     ("/de/categories/", "Tags"),
+    #     ("/de/rss.xml", "RSS-Feed"),
+    # ),
 
-    "es": (
-        ("/es/archive.html", "Archivo"),
-        ("/es/categories/", "Etiquetas"),
-        ("/es/rss.xml", "Canal RSS"),
-    ),
+    # "es": (
+    #     ("/es/archive.html", "Archivo"),
+    #     ("/es/categories/", "Etiquetas"),
+    #     ("/es/rss.xml", "Canal RSS"),
+    # ),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -890,7 +890,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+# CONTENT_FOOTER = '<a href="mailto:{email}">{author}</a>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
