@@ -1,15 +1,15 @@
-.. title: En Jetto - ジェット
+.. title: En Jetto
 .. slug: en-jetto
 .. date: 2020-04-26 14:00:00 UTC+02:00
-.. tags: jetto, jetbot, jetson, nvidia, python, ros
+.. tags: jetto, jetbot, jetson, nvidia
 .. author: Marc Sastre Rienitz
 .. category: jetto
 
 
 .. figure:: /images/this_is_jetto_bling.jpg
-   :width: 70 %
+   :figwidth: 70 %
    :alt: Una foto preciosa
-   :align: right
+   :align: center
    :target: /images/this_is_jetto.jpg
 
 Aquest és en Jetto, un especímen del projecte `Jetbot <https://github.com/NVIDIA-AI-IOT/jetbot>`_. Es tracta d'un robot
@@ -18,9 +18,9 @@ una Raspberry Pi - amb una GPU de Nvidia que permet especialitzar-se en processa
 artifical. El robot també disposa, entre d'altres, d'una càmera i dos motors, així com la possibilitat de connectar-se
 per wifi a la xarxa.
 
-El seu nom no amaga molts secrets: és un Jetbot i m'agrada el japonès →  Jetto (ジェット - seria la manera japonesa de
-pronunciar Jet). Què faré amb ell, però, sí que n'amaga alguns més. Si més no, el seu potencial és molt alt i les seves
-funcions encara romanen en la incertesa.
+El seu nom no amaga molts secrets: és un Jetbot i m'agrada el japonès →  Jetto (ジェット - que seria la manera japonesa
+de pronunciar Jet). Què faré amb ell, però, sí que n'amaga alguns més. Si més no, el seu potencial és molt alt i les
+seves funcions encara romanen en la incertesa.
 
 Les meves intencions per aquest bloc són les de mantenir un registre, un quadern de bitàcora, del progrés del robot i
 poder anar il·lustrant l'avenç del projecte amb l'esperança d'algun dia, després de petits canvis que sembla que no
