@@ -3,7 +3,7 @@ name: Deploy Master
 on:
   push:
     branches:
-      - master
+      - develop
 
 jobs:
   build-deploy:
@@ -35,4 +35,4 @@ jobs:
     - name: Deploy the blog
       run: |
         chmod +x ./deploy-blog.sh
-        ./deploy-blog.sh
+        ./deploy-blog.sh staging
