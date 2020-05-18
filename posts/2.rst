@@ -1,0 +1,32 @@
+.. title: Navegar amb la vista (II)
+.. slug: navegar-amb-la-vista-ii
+.. date: 2020-05-01 14:20:00 UTC+02:00
+.. tags: jetto, jetbot, jetson, nvidia, python, ros
+.. author: Marc Sastre Rienitz
+.. category: jetto
+
+Fa un temps vaig escriure `un post <https://huginnimuninn.wordpress.com/2018/01/28/navegar-amb-la-vista/>`_ on proposava
+la situació del desenvolupament d'un robot que navegués per l'interior d'un edifici. Dos anys més tard tinc un robot que
+vull que navegui per casa - quina situació hi ha millor per aplicar alguna de les idees descrites en aquella entrada?
+
+Els sensors dels que disposa en Jetto d'entrada són pocs - en concret, l'única senyal de l'exterior a la qual tenim
+accés és una càmera. Així doncs, intentaré explicar-vos com he aconseguit inferir la velocitat del robot a través del
+vídeo, quina és la qualitat del resultat i quins passos pretenc seguir per millorar el sistema.
+
+Flux òptic
+----------
+
+Quan mirem un vídeo on la càmera es mou no ens és pas difícil inferir cap a on s'està movent - si més no
+qualitativament som capaços de saber si està anant endavant, endarrera, està girant o si ho fa més ràpid o més lent. Per
+fer-ho, especialment quan no hi ha propriocepció, ens guiem per senyals visuals; una d'elles n'és el *flux òptic*. Si no
+sabeu de què parlo, ho explico amb una mica més de detall a la primera part de `navegar amb la vista
+<https://huginnimuninn.wordpress.com/2018/01/28/navegar-amb-la-vista/>`_, però per no haver de llegir tota l'entrada us
+en puc fer cinc cèntims. El flux òptic és el patró de moviment dels diversos objectes en una imatge a causa del moviment
+propi. Si comparem dos fotogrames consecutius d'un video en el qual es pot haver mogut la càmera, podem veure per
+exemple com allò que està més a prop es mou més ràpid dins de la imatge que allò que està més lluny.
+
+.. youtube:: 88XdOUYzYsc
+   :width: 100%
+   :align: center
+
+OOO

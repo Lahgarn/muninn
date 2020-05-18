@@ -22,12 +22,11 @@ El seu nom no amaga molts secrets: és un Jetbot i m'agrada el japonès →  Jet
 de pronunciar Jet). Què faré amb ell, però, sí que n'amaga alguns més. Si més no, el seu potencial és molt alt i les
 seves funcions encara romanen en la incertesa.
 
-Les meves intencions per aquest bloc són les de mantenir un registre, un quadern de bitàcora, del progrés del robot i
-poder anar il·lustrant l'avenç del projecte amb l'esperança d'algun dia, després de petits canvis que sembla que no
-dugin enlloc, mirar enrere i descobrir un pas de gegant des de l'inici del projecte. Un segon propòsit és el de
-compartir i divulgar d'una manera accessible a diversos nivells d'expertesa tot el procés i les decisions preses. No
-vull escriure textos súper tècnics impossibles de seguir si no saps res sobre el tema, però tampoc vull perdre'm cap
-detall. Potser és un objectiu ambiciós, però en el millor dels casos algú sense coneixements hauria d'acabar entenent
-com funciona el robot a grans trets i algú amb l'expertesa hauria de ser capaç de replicar la meva feina.
-
-
+Les meves intencions per a les entrades sobre en Jetto són les de mantenir un registre, un quadern de bitàcora, del
+progrés del robot i poder anar il·lustrant l'avenç del projecte amb l'esperança d'algun dia, després de petits canvis
+que sembla que no dugin enlloc, mirar enrere i descobrir un pas de gegant des de l'inici del projecte. Un segon propòsit
+és el de compartir i divulgar d'una manera accessible a diversos nivells d'expertesa tot el procés i les decisions
+preses. No vull escriure textos súper tècnics impossibles de seguir si no saps res sobre el tema però tampoc vull
+perdre'm cap detall. Potser és un objectiu ambiciós, però en el millor dels casos algú sense coneixements hauria
+d'acabar entenent com funciona el robot a grans trets i algú amb l'expertesa hauria de ser capaç de replicar la meva
+feina.
